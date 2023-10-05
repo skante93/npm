@@ -1,15 +1,25 @@
 {
-  "name": "express-reply",
+  "name": "@skante/express-reply",
   "version": "1.0.0",
-  "description": "",
-  "main": "reply.js",
+  "description": "Express reply utility function",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha index.test.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skante93/npm/express-reply"
+  },
+  "keywords": [
+    "express",
+    "middleware"
+  ],
+  "author": "Souleymane KANTE",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "chai-http": "^4.4.0",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0"
   }
 }
