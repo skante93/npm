@@ -1,3 +1,6 @@
 [submodule "express-reply"]
 	path = express-reply
 	url = https://github.com/skante93/express-reply
+[submodule "argparser"]
+	path = argparser
+	url = https://github.com/skante93/argparser.git
